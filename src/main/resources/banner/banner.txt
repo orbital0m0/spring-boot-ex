@@ -1,5 +1,6 @@
 ------------------------------------
 
          SPRING BOOT START
+         ${spring-boot.formatted-version}
 
 ------------------------------------
