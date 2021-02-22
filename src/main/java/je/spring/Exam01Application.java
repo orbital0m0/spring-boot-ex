@@ -1,5 +1,6 @@
 package je.spring;
 
+import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,6 +12,8 @@ public class Exam01Application {
 //		SpringApplication.run(Exam01Application.class, args);
 		SpringApplication application = new SpringApplication(Exam01Application.class);
 		application.setWebApplicationType(WebApplicationType.SERVLET);
+		//배너 OFF
+		application.setBannerMode(Banner.Mode.OFF);
 		application.run(args);
 	}
 
