@@ -10,7 +10,7 @@ public class Exam01Application {
 	public static void main(String[] args) {
 //		SpringApplication.run(Exam01Application.class, args);
 		SpringApplication application = new SpringApplication(Exam01Application.class);
-		application.setWebApplicationType(WebApplicationType.NONE);
+		application.setWebApplicationType(WebApplicationType.SERVLET);
 		application.run(args);
 	}
 
